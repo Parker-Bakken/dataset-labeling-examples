@@ -1,22 +1,20 @@
 # Dataset Labeling Examples
 
-This repository demonstrates examples of dataset annotation tasks commonly used in AI training and evaluation workflows.
+Examples of dataset annotation tasks used in AI training/evaluation workflows.
 
-These examples simulate work done by AI data raters and annotators.
+## Datasets
+- `sentiment_dataset.csv` — sentiment classification
+- `ai_safety_dataset.csv` — safe vs unsafe labeling
+- `topic_classification.csv` — topic categorization
+- `annotation_guidelines.md` — labeling rules
 
-## Skills Demonstrated
+## What this demonstrates
+- clean dataset structure (ML-ready)
+- explicit label definitions + edge cases
+- QA approach (spot checks + disagreement logging)
+- summary reporting (label distributions)
 
-• Sentiment classification
-• Safety labeling
-• Text categorization
-• Structured dataset creation
-
-## Example Datasets
-
-| Dataset                  | Purpose                      |
-| ------------------------ | ---------------------------- |
-| sentiment_dataset.csv    | Classify text sentiment      |
-| ai_safety_dataset.csv    | Label safe vs unsafe prompts |
-| topic_classification.csv | Categorize text topics       |
-
-These datasets demonstrate how labeled data is structured for machine learning models.
+## Additions
+- `dictionaries/` — column definitions per dataset
+- `reports/` — label distribution summaries
+- `qa/` — QA logs
